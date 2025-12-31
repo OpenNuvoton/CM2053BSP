@@ -1,4 +1,4 @@
-![VSCode](https://github.com/OpenNuvoton/CM2053BSP/actions/workflows/VSCode.yml/badge.svg)
+
 
 # CM2053 Series CMSIS BSP
 
