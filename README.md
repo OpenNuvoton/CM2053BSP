@@ -16,7 +16,7 @@ To experience the powerful features of CM2053 series in few minutes, please sele
 - NuMicro CM2053 Series CMSIS BSP Revision History.pdf<br>
 	This document shows the revision history of CM2053 BSP.
 
-- VSCode Quick Start Guide
+- VSCode Quick Start Guide.pdf<br>
 	This documents guide to install, configure and use VS Code.
 
 
