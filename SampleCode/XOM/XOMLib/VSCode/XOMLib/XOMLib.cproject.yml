@@ -1,6 +1,6 @@
 project:
   packs:
-    - pack: Nuvoton::NuMicroCM_DFP
+    - pack: Nuvoton::NuMicroCM23_DFP
   setups:
     - setup: Options for XOMLib
       add-path:
