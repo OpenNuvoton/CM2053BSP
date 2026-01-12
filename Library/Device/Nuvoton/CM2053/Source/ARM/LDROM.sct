@@ -10,7 +10,7 @@
 #endif
 
 #ifndef SRAM_SIZE
-    #define SRAM_SIZE       0x00002000
+    #define SRAM_SIZE       0x00004000
 #endif
 
 #ifndef STACK_SIZE

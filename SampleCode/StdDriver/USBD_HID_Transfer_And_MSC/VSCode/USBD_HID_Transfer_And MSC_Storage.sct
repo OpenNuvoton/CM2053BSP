@@ -6,11 +6,11 @@
 
 
 #ifndef FLASH_SIZE
-    #define FLASH_SIZE      0x00008000
+    #define FLASH_SIZE      0x00020000
 #endif
 
 #ifndef SRAM_SIZE
-    #define SRAM_SIZE       0x00002000
+    #define SRAM_SIZE       0x0004000
 #endif
 
 #ifndef STACK_SIZE
