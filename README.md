@@ -61,12 +61,18 @@ To experience the powerful features of CM2053 series in few minutes, please sele
 - XOM<br>
 	Demonstrate how to create XOM library and use it.
 
+- SGL_Demo<br>
+	SGL Demo for CM2053 + ILI9341,Portrait-mode dashboard UI, single-page design without touch functionality.
+
 
 
 ## .\ThirdParty\
 
 - FreeRTOS<br>
 	FreeRTOS porting for CM2053 series MCU.
+
+- SGL<br>
+	SGL porting for CM2053 series MCU.
 
 
 # License
