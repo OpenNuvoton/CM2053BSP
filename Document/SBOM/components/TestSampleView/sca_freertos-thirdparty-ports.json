@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "cm2053:freertos-thirdparty-ports",
+      "name": "freertos-thirdparty-ports",
+      "purl": "pkg:generic/freertos-thirdparty-ports",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "69f3312df99fb51a2047f32f180fcdd9cf5994ce713226b2a3bdc6a2a183e084"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/FreeRTOS/Source/portable/ThirdParty"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "94"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "Independent version and complete license terms not established."
+        }
+      ]
+    }
+  ]
+}

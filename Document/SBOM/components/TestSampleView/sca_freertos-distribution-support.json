@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "cm2053:freertos-distribution-support",
+      "name": "freertos-distribution-support",
+      "purl": "pkg:generic/freertos-distribution-support",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "680f56baed3de1c70cadcff5a5995618ea2aafa30b01b64593397724cf584f93"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/FreeRTOS"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[\"ThirdParty/FreeRTOS/Source\", \"ThirdParty/FreeRTOS/Demo/Common/ethernet\"]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "88"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "Independent version and complete license terms not established."
+        }
+      ]
+    }
+  ]
+}

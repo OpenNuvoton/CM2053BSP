@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:gcc-syscalls",
+      "name": "Library/Device/Nuvoton/CM2053/Source/GCC/_syscalls.c",
+      "purl": "pkg:generic/cm2053-gcc-syscalls?sha256=af3be76122aab5c1d604a4254c662665df90ac16e1c5a513a5ad172cfa2fc072",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "af3be76122aab5c1d604a4254c662665df90ac16e1c5a513a5ad172cfa2fc072"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "Library/Device/Nuvoton/CM2053/Source/GCC/_syscalls.c"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-evidence",
+          "value": "Separate provenance in source header; exact terms not established."
+        }
+      ]
+    }
+  ]
+}
