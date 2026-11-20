@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "cm2053:sgl-code",
+      "name": "sgl-code",
+      "purl": "pkg:generic/sgl-code",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d3314d7ec17e4ea02d35d9da894b9095410482ff68264052c461a8821a2dd06a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/sgl"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[\"ThirdParty/sgl/fonts\"]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "110"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "No verifiable version identified in inspected files."
+        }
+      ],
+      "supplier": {
+        "name": "SGL contributors"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ]
+}

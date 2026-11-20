@@ -1,0 +1,2360 @@
+{
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.cat",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=5f9ae7e9ac3d3d0645c701f3be886d9cb4ea2c5090f40c6831879b7fbb2998c1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5f9ae7e9ac3d3d0645c701f3be886d9cb4ea2c5090f40c6831879b7fbb2998c1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.inf",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=b432a5cc7275d15d3fd05050642b6184fff94a8b9140ccc80ca15aa375cdd869",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b432a5cc7275d15d3fd05050642b6184fff94a8b9140ccc80ca15aa375cdd869"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/Nu_DFU.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/WdfCoInstaller01011.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/WdfCoInstaller01011.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=c7649879a10c9332fc0f9744c7e3224647aee9e7e62c7e21cf9e987462e3dd06",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c7649879a10c9332fc0f9744c7e3224647aee9e7e62c7e21cf9e987462e3dd06"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/WdfCoInstaller01011.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-WdfCoInstaller01011-sha256-c7649879\", \"windowsdriver-amd64-wdfcoinstaller01011-dll-sha256-c7649879\", \"windowsdriver-x86-wdfcoinstaller01011-dll-sha256-c7649879\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-WdfCoInstaller01011-sha256-c7649879\", \"windowsdriver-amd64-wdfcoinstaller01011-dll-sha256-c7649879\", \"windowsdriver-x86-wdfcoinstaller01011-dll-sha256-c7649879\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-wdfcoinstaller01011-dll.md-d080a58155bbcee95196692fe4916a0c03797fab8b36d9ec6df40e99c7e1213b\", \"windowsdriver-x86-wdfcoinstaller01011-dll.md-3b9d7d32b21ed617a344095018bd1efce8c8968a28bf69fb6f55902a1e54999a\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.11.9200.16384\", \"1.11.9200.16384 (win8_rtm.120725-1247)\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft Software License Terms"
+          }
+        }
+      ],
+      "version": "1.11.9200.16384"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=4f18b5d2c28aa66b648c8683c6d09b52b92cbbee85984bbefad5f38a64bc2a14",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f18b5d2c28aa66b648c8683c6d09b52b92cbbee85984bbefad5f38a64bc2a14"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-dll-sha256-4f18b5d2\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-dll-sha256-4f18b5d2\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-dll.md-fc3448c9b865f92f8a6af9c43482a77afdb4489b221d56fb0ab7d5d8083242d0\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0_x86.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0_x86.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusb0_x86.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll.md-bf6d8b3eee54117a02fd7046d415546cab18e63d58841f65859faa52714bf92e\", \"windowsdriver-x86-install-filter-exe.md-461bc868e475f7e68433a015013122306b2c9c48844771516ac6447d616c52c7\", \"windowsdriver-x86-libusb0-dll.md-b58e95b36bc02292609bab19fa63717f05a8fb38fb582161d471289c2e93fa6c\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=592cd24bae321f1cb6cbe2f6e1bc5c05e279328e1c86814eb64ea1e89fdea188",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "592cd24bae321f1cb6cbe2f6e1bc5c05e279328e1c86814eb64ea1e89fdea188"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-dll-sha256-592cd24b\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-dll-sha256-592cd24b\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-dll.md-4139d0df4c69e1ce49eaae328920bfab26e45e3c90a77059988870c357ce7eb5\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"3.0.7.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause OR GPL-3.0-only"
+        }
+      ],
+      "version": "3.0.7.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.sys",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.sys",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=1df66ff22e2eaec27180756d90926ca5b07e8bcf6b0e4e3c56471e63a3a05fa6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1df66ff22e2eaec27180756d90926ca5b07e8bcf6b0e4e3c56471e63a3a05fa6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK.sys"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-sys-sha256-1df66ff2\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-sys-sha256-1df66ff2\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-sys.md-9939bc188b08c3fdd9e571101c36c1a1a1ba177ebc0d4a59007da213c10dcbdb\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"3.0.7.0 built by: WinDDK\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause OR GPL-3.0-only"
+        }
+      ],
+      "version": "3.0.7.0 built by: WinDDK"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK_x86.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK_x86.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22803c719494f193d22519bfaff9484fecdcf1fadd6f082efd024fcee0b97ba4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22803c719494f193d22519bfaff9484fecdcf1fadd6f082efd024fcee0b97ba4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/amd64/libusbK_x86.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll-sha256-22803c71\", \"windowsdriver-x86-libusbk-dll-sha256-22803c71\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll-sha256-22803c71\", \"windowsdriver-x86-libusbk-dll-sha256-22803c71\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll.md-fea6534d6bd539c924263d2ee05dedf40e7f014badec8073086f2dbc0f454a68\", \"windowsdriver-x86-libusbk-dll.md-ed1e70d0d6dbd31b41d9aa95e27121f4c9dd53267c941ee3edd0cfc2ca59580f\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"3.0.7.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause OR GPL-3.0-only"
+        }
+      ],
+      "version": "3.0.7.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/WdfCoInstaller01011.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/WdfCoInstaller01011.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=c7649879a10c9332fc0f9744c7e3224647aee9e7e62c7e21cf9e987462e3dd06",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c7649879a10c9332fc0f9744c7e3224647aee9e7e62c7e21cf9e987462e3dd06"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/WdfCoInstaller01011.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-WdfCoInstaller01011-sha256-c7649879\", \"windowsdriver-amd64-wdfcoinstaller01011-dll-sha256-c7649879\", \"windowsdriver-x86-wdfcoinstaller01011-dll-sha256-c7649879\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-WdfCoInstaller01011-sha256-c7649879\", \"windowsdriver-amd64-wdfcoinstaller01011-dll-sha256-c7649879\", \"windowsdriver-x86-wdfcoinstaller01011-dll-sha256-c7649879\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-wdfcoinstaller01011-dll.md-d080a58155bbcee95196692fe4916a0c03797fab8b36d9ec6df40e99c7e1213b\", \"windowsdriver-x86-wdfcoinstaller01011-dll.md-3b9d7d32b21ed617a344095018bd1efce8c8968a28bf69fb6f55902a1e54999a\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.11.9200.16384\", \"1.11.9200.16384 (win8_rtm.120725-1247)\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft Software License Terms"
+          }
+        }
+      ],
+      "version": "1.11.9200.16384"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/install-filter.exe",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/install-filter.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/install-filter.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll.md-bf6d8b3eee54117a02fd7046d415546cab18e63d58841f65859faa52714bf92e\", \"windowsdriver-x86-install-filter-exe.md-461bc868e475f7e68433a015013122306b2c9c48844771516ac6447d616c52c7\", \"windowsdriver-x86-libusb0-dll.md-b58e95b36bc02292609bab19fa63717f05a8fb38fb582161d471289c2e93fa6c\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5e84d13636fbce7869cddc8b20c7d83fa0063e98c319e8e5ab751edc9ee1da76"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll-sha256-5e84d136\", \"windowsdriver-x86-install-filter-exe-sha256-5e84d136\", \"windowsdriver-x86-libusb0-dll-sha256-5e84d136\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusb0-x86-dll.md-bf6d8b3eee54117a02fd7046d415546cab18e63d58841f65859faa52714bf92e\", \"windowsdriver-x86-install-filter-exe.md-461bc868e475f7e68433a015013122306b2c9c48844771516ac6447d616c52c7\", \"windowsdriver-x86-libusb0-dll.md-b58e95b36bc02292609bab19fa63717f05a8fb38fb582161d471289c2e93fa6c\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.sys",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.sys",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=aa7d75a4d01b405aab7c848674bbed392b64c6e374e20fd72adc3c96294e2f00",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aa7d75a4d01b405aab7c848674bbed392b64c6e374e20fd72adc3c96294e2f00"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0.sys"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-x86-libusb0-sys-sha256-aa7d75a4\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-x86-libusb0-sys-sha256-aa7d75a4\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-x86-libusb0-sys.md-4c89d593d4d27a62b3af200b823fb954020a86284673421173bbf6032332e355\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0_x86.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0_x86.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=00caca07869b19d10b370552ac7cc2f6f2ee246fc15db11650f6cd3f4ef9b666",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "00caca07869b19d10b370552ac7cc2f6f2ee246fc15db11650f6cd3f4ef9b666"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusb0_x86.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-x86-libusb0-x86-dll-sha256-00caca07\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-x86-libusb0-x86-dll-sha256-00caca07\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-x86-libusb0-x86-dll.md-389d1248eec5ee111213a9acb023d1b9827a729fa9123d2b1e9fe3c143954bfc\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.2.6.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "version": "1.2.6.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22803c719494f193d22519bfaff9484fecdcf1fadd6f082efd024fcee0b97ba4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22803c719494f193d22519bfaff9484fecdcf1fadd6f082efd024fcee0b97ba4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll-sha256-22803c71\", \"windowsdriver-x86-libusbk-dll-sha256-22803c71\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll-sha256-22803c71\", \"windowsdriver-x86-libusbk-dll-sha256-22803c71\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-amd64-libusbk-x86-dll.md-fea6534d6bd539c924263d2ee05dedf40e7f014badec8073086f2dbc0f454a68\", \"windowsdriver-x86-libusbk-dll.md-ed1e70d0d6dbd31b41d9aa95e27121f4c9dd53267c941ee3edd0cfc2ca59580f\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"3.0.7.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause OR GPL-3.0-only"
+        }
+      ],
+      "version": "3.0.7.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.sys",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.sys",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=6265ae9ae5c49f515613f0b749ad8390a1b34ca326203318bffeb6c2c281d2d0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6265ae9ae5c49f515613f0b749ad8390a1b34ca326203318bffeb6c2c281d2d0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/libusbK.sys"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-x86-libusbk-sys-sha256-6265ae9a\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-x86-libusbk-sys-sha256-6265ae9a\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-x86-libusbk-sys.md-1d0f48b3f33d09875957cc8dde9e2669ced2616948e526588ceb6eaaa04eb8c1\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"3.0.7.0 built by: WinDDK\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause OR GPL-3.0-only"
+        }
+      ],
+      "version": "3.0.7.0 built by: WinDDK"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsDriver/x86/winusbcoinstaller2.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/winusbcoinstaller2.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=ebe3b7708dd974ee87efed3113028d266af87ca8dbae77c47c6f7612824d3d6c",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ebe3b7708dd974ee87efed3113028d266af87ca8dbae77c47c6f7612824d3d6c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsDriver/x86/winusbcoinstaller2.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"windowsdriver-x86-winusbcoinstaller2-dll-sha256-ebe3b770\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"windowsdriver-x86-winusbcoinstaller2-dll-sha256-ebe3b770\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"windowsdriver-x86-winusbcoinstaller2-dll.md-b0d19ae82d7ce187b97ecde1336006a2eb0cec3f10039884814149bd0a7f5c66\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"6.1.7600.16385 (win7_rtm.090713-1255)\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft Software License Terms"
+          }
+        }
+      ],
+      "version": "6.1.7600.16385 (win7_rtm.090713-1255)"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsTool/DFU_DNLOAD_PATTERN.bin",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsTool/DFU_DNLOAD_PATTERN.bin",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=05ad568d02d3b3a23d123f04d63bc2fcc00738c30a822fc7e92beb47f774cfa8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "05ad568d02d3b3a23d123f04d63bc2fcc00738c30a822fc7e92beb47f774cfa8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsTool/DFU_DNLOAD_PATTERN.bin"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsTool/dfu-util.exe",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsTool/dfu-util.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=9b876875be22caf1a690608b36e2eb43670f5b53a345bc6a612f2e74b8dfa654",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9b876875be22caf1a690608b36e2eb43670f5b53a345bc6a612f2e74b8dfa654"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsTool/dfu-util.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/ISP/ISP_DFU/WindowsTool/libusb-1.0.dll",
+      "name": "SampleCode/ISP/ISP_DFU/WindowsTool/libusb-1.0.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=18172f1da95230ee7e99c78a01771476e3bae6b194d33bcba613719a5c9d198c",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "18172f1da95230ee7e99c78a01771476e3bae6b194d33bcba613719a5c9d198c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/ISP/ISP_DFU/WindowsTool/libusb-1.0.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/FMC_IAP/KEIL/FMC_IAP_LDROM.bin",
+      "name": "SampleCode/StdDriver/FMC_IAP/KEIL/FMC_IAP_LDROM.bin",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=1fa57461afbf12a908b202779f3da5fb2494bc7ed7ead30a1f801987f95733d4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1fa57461afbf12a908b202779f3da5fb2494bc7ed7ead30a1f801987f95733d4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/FMC_IAP/KEIL/FMC_IAP_LDROM.bin"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/FMC_IAP/VSCode/bin/ARMCLANG/FMC_IAP_LDROM.bin",
+      "name": "SampleCode/StdDriver/FMC_IAP/VSCode/bin/ARMCLANG/FMC_IAP_LDROM.bin",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=1fa57461afbf12a908b202779f3da5fb2494bc7ed7ead30a1f801987f95733d4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1fa57461afbf12a908b202779f3da5fb2494bc7ed7ead30a1f801987f95733d4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/FMC_IAP/VSCode/bin/ARMCLANG/FMC_IAP_LDROM.bin"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/FMC_IAP/VSCode/bin/GNUC/FMC_IAP_LDROM.bin",
+      "name": "SampleCode/StdDriver/FMC_IAP/VSCode/bin/GNUC/FMC_IAP_LDROM.bin",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=671e68eefe00466ee66475afb285d435f1076915becb6125937a1e6f0729445c",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "671e68eefe00466ee66475afb285d435f1076915becb6125937a1e6f0729445c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/FMC_IAP/VSCode/bin/GNUC/FMC_IAP_LDROM.bin"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_And_Keyboard/WindowsTool/HIDTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_And_Keyboard/WindowsTool/HIDTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_And_Keyboard/WindowsTool/HIDTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_And_MSC/WindowsTool/HIDTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_And_MSC/WindowsTool/HIDTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_And_MSC/WindowsTool/HIDTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=3f80f3213b65a99268cc19e38b1378cf381e8cb92730290ed4fce9c3e55dc756",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3f80f3213b65a99268cc19e38b1378cf381e8cb92730290ed4fce9c3e55dc756"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidclass.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidclass.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=8b8721bf4e19b875082e5c0bbcdd191fc00442ca755f66947e5b21a8862ad3d4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8b8721bf4e19b875082e5c0bbcdd191fc00442ca755f66947e5b21a8862ad3d4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidclass.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidparse.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidparse.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=00912ceec31d6c7ae453f0323068ef29919fe2677d9d94bae20e2d6562dc82fb",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "00912ceec31d6c7ae453f0323068ef29919fe2677d9d94bae20e2d6562dc82fb"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/hidparse.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/setupapi.lib",
+      "name": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/setupapi.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=7bf22e0bc1a833e598e6f9874fd0296e69100467451fe1519a88ab3f358d031a",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7bf22e0bc1a833e598e6f9874fd0296e69100467451fe1519a88ab3f358d031a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_HID_Transfer_CTRL/WindowsTool/HIDCtrlTransferTest/setupapi.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_Micro_Printer/Windows driver/NuvPos58_Driver.exe",
+      "name": "SampleCode/StdDriver/USBD_Micro_Printer/Windows driver/NuvPos58_Driver.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=911e4c166fe9b06c8e2e31ab46b56ef662c43cba208d2088ca1d41c6d584e183",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "911e4c166fe9b06c8e2e31ab46b56ef662c43cba208d2088ca1d41c6d584e183"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_Micro_Printer/Windows driver/NuvPos58_Driver.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"samplecode-usbd-micro-printer-nuvpos58-driver-exe-sha256-911e4c16\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"samplecode-usbd-micro-printer-nuvpos58-driver-exe-sha256-911e4c16\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"samplecode-usbd-micro-printer-nuvpos58-driver-exe.md-023496b951b5c7043f995e01ca891e6662a71dfcd9cc148f067314ae146e2222\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Nuvoton Software License Agreement"
+          }
+        }
+      ],
+      "version": "1.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X64.exe",
+      "name": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X64.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=ce0ed66a5db0a0c061fd92975939f48e93affad15f3f6e806d44b3e82078b3db",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce0ed66a5db0a0c061fd92975939f48e93affad15f3f6e806d44b3e82078b3db"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X64.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x64-exe-sha256-ce0ed66a\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x64-exe-sha256-ce0ed66a\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x64-exe.md-996a40a474efa07e48d4ba025137e24e21674f87eac2515af16bbef84cb73620\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Nuvoton Software License Agreement"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X86.exe",
+      "name": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X86.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=76e4d01dbf17ca7525e3a9156bd7e6274c5db0fff88a25943c25c8d2bdd38d92",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "76e4d01dbf17ca7525e3a9156bd7e6274c5db0fff88a25943c25c8d2bdd38d92"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/Windows driver/NUVPOS58_X86.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x86-exe-sha256-76e4d01d\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x86-exe-sha256-76e4d01d\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"samplecode-usbd-printer-and-hid-transfer-nuvpos58-x86-exe.md-65aa0409908b7d0dcdc203f499118241bae430f92b2108337010cb95a9b516a6\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Nuvoton Software License Agreement"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_Printer_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_HID_Keyboard/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bcccaed9b092f4ab2aa12e1471959ed1847296f350bb6d7390b0718fdb5ca4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_HID_Transfer/WindowsTool/HIDTransferTest/hid.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_And_Mass_Storage/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_DualPort/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_MultiPort/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_MultiPort_CMD/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/NuvotonCDC.inf",
+      "name": "SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/NuvotonCDC.inf",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "444810c598ceec50282fff2cc6d7f03c7247c36febd201c7b2b0542bcef74612"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/NuvotonCDC.inf"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/nuvotoncdc.cat",
+      "name": "SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/nuvotoncdc.cat",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e482d2df2f465f9634af61af5827d3666f3682d663e692df01c28cb0b6af76ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/StdDriver/USBD_VCOM_SerialEmulator/Windows Driver/nuvotoncdc.cat"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/XOM/XOMLib/XOMAddr.exe",
+      "name": "SampleCode/XOM/XOMLib/XOMAddr.exe",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=10d3cf6d50b65b6adc13efd4c782ec7b09fd5894381e437c63517ccf7d7dfb6a",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "10d3cf6d50b65b6adc13efd4c782ec7b09fd5894381e437c63517ccf7d7dfb6a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/XOM/XOMLib/XOMAddr.exe"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"samplecode-xom-xomlib-xomaddr-exe-sha256-10d3cf6d\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"samplecode-xom-xomlib-xomaddr-exe-sha256-10d3cf6d\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"samplecode-xom-xomlib-xomaddr-exe.md-0e350c41db213eaea3b6f7aecfd6b40d9b65a55fc250221833784a211ff8b4ba\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"1.0\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Nuvoton Software License Agreement"
+          }
+        }
+      ],
+      "version": "1.0"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/XOM/XOMLib/lib/XOMLib.a",
+      "name": "SampleCode/XOM/XOMLib/lib/XOMLib.a",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=dcdb3462893376724397257e0c1409d0f7fcafb6ec6c6491882ddebd54315ecc",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dcdb3462893376724397257e0c1409d0f7fcafb6ec6c6491882ddebd54315ecc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/XOM/XOMLib/lib/XOMLib.a"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/XOM/XOMLib/lib/XOMLib.lib",
+      "name": "SampleCode/XOM/XOMLib/lib/XOMLib.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=9e3aeca2decd2cadd8b0407968c84dace9c060e5b8d27d30746e5673d4bc383e",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e3aeca2decd2cadd8b0407968c84dace9c060e5b8d27d30746e5673d4bc383e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/XOM/XOMLib/lib/XOMLib.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/XOM/XOMLib/lib/libXOMLib.a",
+      "name": "SampleCode/XOM/XOMLib/lib/libXOMLib.a",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=01fae38523666fe74261ce0b313b3313afb0d347e5cbc4c1a977d065b1b34842",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "01fae38523666fe74261ce0b313b3313afb0d347e5cbc4c1a977d065b1b34842"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/XOM/XOMLib/lib/libXOMLib.a"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:SampleCode/XOM/XOMLib/lua5.1.dll",
+      "name": "SampleCode/XOM/XOMLib/lua5.1.dll",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=26384c6ee7d50863e3fb65fdc1bad452d9311f34d782390401de9bb130eecc4a",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "26384c6ee7d50863e3fb65fdc1bad452d9311f34d782390401de9bb130eecc4a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "SampleCode/XOM/XOMLib/lua5.1.dll"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[\"samplecode-xom-xomlib-lua5.1-dll-sha256-26384c6e\"]"
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "database-evidence-reused-needs-release-review"
+        },
+        {
+          "name": "bsp:license-source",
+          "value": "binary-license-database"
+        },
+        {
+          "name": "bsp:license-match-method",
+          "value": "sha256"
+        },
+        {
+          "name": "bsp:binary-db-entry-ids",
+          "value": "[\"samplecode-xom-xomlib-lua5.1-dll-sha256-26384c6e\"]"
+        },
+        {
+          "name": "bsp:license-evidence-ids",
+          "value": "[\"samplecode-xom-xomlib-lua5.1-dll.md-15b240a83ea4efc8db8ee7276663690fca44d89e00872ea63197f906b9938913\"]"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Reused SHA-256-matched database declarations with verified evidence files; release applicability remains under review."
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "SHA-256-matched database PE FileVersion; raw values: [\"5.1\"]"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "version": "5.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "cm2053:file:ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap/wpcap.lib",
+      "name": "ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap/wpcap.lib",
+      "purl": "pkg:generic/cm2053-distributed-file?sha256=0becdc2d0f2f1e7be3e56cedc9f72578dbac35b347cc15bc031276d10f501b49",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0becdc2d0f2f1e7be3e56cedc9f72578dbac35b347cc15bc031276d10f501b49"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:file-path",
+          "value": "ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap/wpcap.lib"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:version-evidence",
+          "value": "Independent file version not yet assessed; path and SHA256 identify the distributed artifact."
+        },
+        {
+          "name": "bsp:license-status",
+          "value": "needs-review"
+        },
+        {
+          "name": "bsp:license-candidate-ids",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

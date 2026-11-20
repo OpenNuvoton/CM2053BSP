@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "cm2053:lwip",
+      "name": "lwip",
+      "purl": "pkg:generic/lwip@1.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6618c3d949d629274b2ca9fdede4791cc336f056a3c3ccc9fe5c3476e91a8dc2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[\"ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap\"]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "144"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "Version indicated by vendored directory name; exact upstream identity and license assessment pending."
+        }
+      ],
+      "version": "1.4.0"
+    }
+  ]
+}

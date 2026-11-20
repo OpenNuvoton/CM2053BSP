@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "cm2053:winpcap-support",
+      "name": "winpcap-support",
+      "purl": "pkg:generic/winpcap-support",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7ce033ebfceaf8953adc4ff768fdb44f473c52e3efb2c95ff71bc5b1bdebaf90"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "19"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "Independent version and complete license terms not established."
+        }
+      ]
+    }
+  ]
+}

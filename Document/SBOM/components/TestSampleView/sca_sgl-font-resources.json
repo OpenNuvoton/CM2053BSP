@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "type": "data",
+      "bom-ref": "cm2053:sgl-font-resources",
+      "name": "sgl-font-resources",
+      "purl": "pkg:generic/sgl-font-resources",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "04d0223268f9e071d7b92b14193a5755ba72a0e74c1ec572728f2f28925a1dfb"
+        }
+      ],
+      "properties": [
+        {
+          "name": "bsp:path",
+          "value": "ThirdParty/sgl/fonts"
+        },
+        {
+          "name": "bsp:component-origin",
+          "value": "third-party"
+        },
+        {
+          "name": "bsp:source-commit",
+          "value": "4724ff4791fc635800656da7e04b291e8768425b"
+        },
+        {
+          "name": "bsp:excluded-paths",
+          "value": "[]"
+        },
+        {
+          "name": "bsp:included-file-count",
+          "value": "14"
+        },
+        {
+          "name": "bsp:hash-subject",
+          "value": "sorted directory file manifest"
+        },
+        {
+          "name": "bsp:hash-algorithm",
+          "value": "SHA256 of UTF-8 concatenated BSP-relative path + NUL + lowercase file SHA256 + LF, sorted by path"
+        },
+        {
+          "name": "bsp:license-assessment-basis",
+          "value": "Inspected repository declarations only; complete file-level and resource-origin review pending."
+        },
+        {
+          "name": "bsp:identity-evidence",
+          "value": "Generated C headers declare MIT; underlying font sources and license terms not established."
+        }
+      ]
+    }
+  ]
+}
